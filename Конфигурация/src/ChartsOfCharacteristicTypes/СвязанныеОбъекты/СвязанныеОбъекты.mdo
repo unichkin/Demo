@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec1d8f17-dd7e-4f21-a8c9-40be413c38b4">
+  <producedTypes>
+    <objectType typeId="c5db1a03-fcbd-479b-8079-ad0f93248ec0" valueTypeId="5e192ce4-6485-455b-a6e3-00afeeb1e012"/>
+    <refType typeId="b8b850d8-5283-45ec-a28e-5fba265630aa" valueTypeId="67fe0146-5ff4-4197-b1c1-010b9590f92d"/>
+    <selectionType typeId="7b10acad-8508-435b-83f6-4d7412dc0379" valueTypeId="a22e0910-4fcc-4f02-90bb-30b277d9b9a4"/>
+    <listType typeId="411cd1ce-75f6-4245-bb2f-83e9e9be747d" valueTypeId="bd2bb729-bdc7-42aa-aef7-1863f8178a40"/>
+    <managerType typeId="753e736b-dac1-4b56-9aab-6c21e673cddd" valueTypeId="29ce81b3-50f2-4d7e-864b-e66f05387119"/>
+    <containerType typeId="98d5f149-4799-45d8-9819-3f01643e3b4d" valueTypeId="b6e401d7-d0b3-40eb-99de-53850e477b04"/>
+  </producedTypes>
+  <name>СвязанныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные объекты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.СвязанныеОбъекты.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.СвязанныеОбъекты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Товары</types>
+    <types>CatalogRef.Контрагенты</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

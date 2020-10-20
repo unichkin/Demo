@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b2beab7-e080-4413-9188-930d76e84b37">
+  <producedTypes>
+    <selectionType typeId="f2fb239d-3788-4557-a72d-72f48d23b44a" valueTypeId="26b6fa8c-475f-4c29-aa49-d4fec0206ad3"/>
+    <listType typeId="dc563769-3f37-405a-99f5-5b15715977e0" valueTypeId="2473cf98-54ea-44e4-b416-d5b5367314e0"/>
+    <managerType typeId="27c18e9b-0cf8-4deb-90ea-5f34eb190358" valueTypeId="289f8c2a-35a5-4439-8f29-fa8723c107d6"/>
+    <recordSetType typeId="1be55300-ab9d-42b0-a90c-65a8e9da2b9e" valueTypeId="33202675-d5fa-4253-a277-3d90de2d9abb"/>
+    <recordKeyType typeId="45622c89-2280-4e23-9839-974f5bafd6de" valueTypeId="633c77f9-7e4c-4cb0-a637-474ef0fc8a1e"/>
+    <recordType typeId="1b70d848-a124-4ae5-bbcf-4ac27ba37312" valueTypeId="94130b32-8714-4bf9-9567-484d2f7eb7bc"/>
+    <recordManagerType typeId="09ef085f-0ddb-48c3-bff2-39869e14cc8d" valueTypeId="872fc991-c406-46b9-988a-2ca58214c04d"/>
+  </producedTypes>
+  <name>СвязанныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные объекты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="19a7d568-3632-4670-be2c-bbda7f66f370">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.СвязанныеОбъекты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="4683ff59-9db5-4668-9537-44c7459e7c76">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>Characteristic.СвязанныеОбъекты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

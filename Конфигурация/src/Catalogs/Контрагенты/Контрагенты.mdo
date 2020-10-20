@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abd1d509-5de3-4816-a767-5af43248c706">
+  <producedTypes>
+    <objectType typeId="065a76b2-628c-479a-a073-9618a81ec61c" valueTypeId="a3eb54de-b7b4-44f2-9a1e-3e298db795c5"/>
+    <refType typeId="3daae387-53df-4129-84f2-0bcdeb0d3944" valueTypeId="4e0771cd-cca4-4e0e-8e96-c749901652ad"/>
+    <selectionType typeId="8d8dff0a-8a15-4e95-8839-2c1dc048909a" valueTypeId="9935afed-b7cc-428f-aee4-147bd3407897"/>
+    <listType typeId="ff7fb4b8-a96a-43ff-8313-a0f2da4b2e64" valueTypeId="92d6cc29-7cff-4c54-af14-f2e54a486ad2"/>
+    <managerType typeId="450ddaed-1eb4-4745-b0e1-aa2c328c2d34" valueTypeId="de1f424a-39fd-41fe-96b7-9f29b7948d63"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="44d2a5cf-9803-497a-878c-e86f6886558d">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="093f2865-5977-4cd9-aebf-a1bf0d2a297e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
